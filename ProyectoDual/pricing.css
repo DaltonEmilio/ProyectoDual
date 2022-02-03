@@ -1,0 +1,115 @@
+body {
+
+  /* Ubicación de la imagen */
+  
+  background-image: url(fondoWholeAutomation.jpg);
+  
+  /* Para dejar la imagen de fondo centrada, vertical y
+  
+  horizontalmente */
+  
+  background-position: center center;
+  
+  /* Para que la imagen de fondo no se repita */
+  
+  background-repeat: no-repeat;
+  
+  /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+  
+  background-attachment: fixed;
+  
+  /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+  
+  background-size: cover;
+  
+  /* Se muestra un color de fondo mientras se está cargando la imagen
+  
+  de fondo o si hay problemas para cargarla */
+  background-color: black;
+  
+  }
+
+  .primero {
+    background-color: rgba(0, 0, 0, 0.631);
+    position: fixed;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 40px;
+
+    
+  }
+  /*Css WHOLE AUTOMATION*/
+  .segundo {
+    width: 170px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+  }
+  .segundo:hover{
+    color: #2e2e2e;
+
+  }
+
+
+
+
+
+
+  /*Css de icono de salida a index.html*/
+  a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+  }
+  .link:hover { color: #2e2e2e; }
+  .link{  margin-left: 200px;}
+
+
+
+
+
+
+
+.miContenedor{
+  padding-top: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.parrafoCabecera{
+  max-width: 960px;
+ 
+
+
+}
+
+.container {
+  max-width: 800px;
+  
+}
+
+
+
+.mb-4{
+  color: aliceblue;
+  font-weight: 500px;
+  
+}
+.text-start{
+  color: aliceblue;
+  font-weight: 600;
+
+}
+
+.table{
+  color: aliceblue;
+  font-weight: 600;
+
+}
+
+main{
+  background-color: rgba(0, 0, 0, 0.231);
+}
