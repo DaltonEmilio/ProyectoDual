@@ -36,17 +36,18 @@ body {
     justify-content: center;
     align-items: center;
     display: flex;
-    height: 40px;
-
-    
+    height: 70px;
   }
   /*Css WHOLE AUTOMATION*/
   .segundo {
-    width: 170px;
+    width: 300px;
     justify-content: center;
     align-items: center;
     display: flex;
     color: white;
+    font-size: 20px;
+    font-weight: bold;
+    
   }
   .segundo:hover{
     color: #2e2e2e;
@@ -112,4 +113,23 @@ body {
 
 main{
   background-color: rgba(0, 0, 0, 0.231);
+}
+
+
+
+/*CSS DE LOS BOTONES */
+
+/*bton OFF*/
+.btn-danger{
+  border-radius: 50%;
+  height: 25px;
+  background-color: rgb(255, 0, 0);
+  border-color: rgb(255, 255, 255);
+}
+/*bton On*/
+.btn-success {
+  border-radius: 50%;
+  height: 25px;
+  background-color: rgb(39, 179, 7);
+  border-color: rgb(255, 255, 255);
 }

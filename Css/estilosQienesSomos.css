@@ -1,0 +1,201 @@
+body{
+   margin: 0%;
+}
+.titulo{
+    color: #2e2e2e;
+    font-family: Arial,Helvetica,sans-serif;
+    margin-top: 0%;
+    border-bottom: solid 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 2rem;
+    
+}
+.contenerdor{
+    width: 60%;
+    margin: 0 auto;
+    
+}
+.contenerdor .grupo{
+    margin: 0 auto;
+    
+}
+.grupo{
+    display: flex;
+    width: 100%;
+}
+.autor1{
+    width: 30%;
+    margin-right: 5%;
+    
+
+}
+.autor2{
+    width: 30%;
+    margin-right: 5%;
+    
+
+}
+.autor3{
+    width: 30%;
+    
+
+}
+.cabeceraDalton{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #2e2e2e;
+    font-family: Arial,Helvetica,sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.autor1 .cabeceraDalton{
+    margin: auto;
+    
+}
+
+.cabeceraVinicio{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #2e2e2e;
+    font-family: Arial,Helvetica,sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.autor2 .cabeceraVinicio{
+    margin: auto;
+    
+}
+
+.cabeceraMustafa{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #2e2e2e;
+    font-family: Arial,Helvetica,sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.autor3 .cabeceraMustafa{
+    margin: auto;
+    
+}
+
+.cabeceraDalton .descipcionDalton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.descipcionDalton{
+    text-align: center;
+    font-family: Arial,Helvetica,sans-serif;
+    color: #2e2e2e;
+    margin-top: 20px;
+    
+}
+
+.cabeceraVinicio .descipcionVinicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.descipcionVinicio{
+    text-align: center;
+    font-family: Arial,Helvetica,sans-serif;
+    color: #2e2e2e;
+    margin-top: 20px;
+    
+}
+
+.cabeceraMustafa .descipcionMustafa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.descipcionMustafa{
+    text-align: center;
+    font-family: Arial,Helvetica,sans-serif;
+    color: #2e2e2e;
+    margin-top: 20px;
+    
+}
+
+.descripcionProyecto{
+    width: 60%;
+    margin: 0 auto;
+}
+.descripcionProyecto p{
+    font-family: Arial,Helvetica,sans-serif;
+    color: #2e2e2e;
+    margin-top: 40px;
+    text-align: justify;
+    border-bottom: solid 3px #2e2e2e;
+    padding-bottom:  40px;
+}
+
+.imgQuienesSomos{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.imgWeb{
+    width: 100%;
+height: auto;
+}
+
+.home{
+    width: 200px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 15px;
+    color: #2e2e2e;
+    margin-left: 90%;
+    text-decoration: none;
+    padding: 5px;
+    background-color: #0180FE;
+    font-weight: bold;
+    border-radius: 100px;
+    color: white;
+    
+}
+.home:hover{
+    background-color: #0174DF;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

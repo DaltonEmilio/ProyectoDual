@@ -1,0 +1,119 @@
+body{
+    margin: 0%;
+}
+
+.titulo{
+    color: #2e2e2e;
+    font-family: Arial,Helvetica,sans-serif;
+    margin-top: 0%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 2rem;
+    
+}
+.fondoMenu{
+    margin: auto;
+    height: 60px;
+    background-color: #2e2e2e;
+}
+
+.menu{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    height: 60px;
+    padding-top:  15px;
+    
+}
+
+a{
+    padding-right: 10%;
+    text-decoration: none;
+    color: white;
+    
+    
+}
+
+.carro{
+    margin: auto;
+    background-color: red;
+    width: 60%;
+    margin-top: 40px;
+}
+
+
+
+body form{
+    margin: auto;
+}
+
+form{
+   width: 300px;
+   height: 300px;
+   padding: 20px;
+   border-radius: 5px;
+}
+
+.login{
+    margin-top: 20px;
+}
+
+
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+#error{
+  color: rgba(46, 46, 46, 0.401);
+}
+.bodyIndex{
+  background-image: url("img/domotica.png");
+  background-repeat:no-repeat;
+
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #2e2e2e;
+  color: white;
+  text-align: center;
+  height: 30px;
+  padding-top: 4px;
+  
+  
+}
+
+
+
+
+
+
+
+
