@@ -1,0 +1,22 @@
+--\c postgres
+--drop database if exists validar;
+create database validar;
+--\c login
+
+CREATE TABLE 'Personal' (
+  'id' int(10) unsigned NOT NULL AUTO_INCREMENT,
+  'username' varchar(25) NOT NULL,
+  'password' varchar(25) NOT NULL,
+  'email' varchar(100) NOT NULL,
+  PRIMARY KEY ('id'),
+  UNIQUE KEY 'username' ('username')
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=1;
+
+
+insert into users  (usuario,password,email) values ('Pilar','1234','wholeautomation@tuta.io');
+insert into users  (usuario,password,email) values ('Vinicio','4321','wholeautomation@tuta.io');
+insert into users  (usuario,password,email) values ('Mustafa','01234','wholeautomation@tuta.io');
+insert into users  (usuario,password,email) values ('DaltonEmilio','0000','wholeautomation@tuta.io');
+
+
+

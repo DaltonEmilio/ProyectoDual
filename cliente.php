@@ -1,9 +1,19 @@
+<?php
+session_start();
+///Si este nombre de usuario no ezsta logea me devolvera a index.html
+ if(!isset($_SESSION["username"])){
+     header("Location:index.html");
+     
+     
+ }
+?>
+
 <!doctype html>
 <html lang="es-ES">
 
 <head>
   <meta charset="utf-8">
-  <meta name="author" content="Dalton-Emilio Vinicio Mustafa">
+  <meta name="author" content="Dalton-Emilio, Vinicio, Mustafa">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>WHOLE AUTOMATION</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -63,16 +73,9 @@
     
   <div class="primero" style="z-index:1000;">
       <a class="segundo"  href="cliente.php">WHOLE AUTOMATION</a>
-    <!--Icono de salida del cliente.html-->
-    <a class="link" href="index.php">
-      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-box-arrow-right"
-        viewBox="0 0 16 16">
-        <path fill-rule="evenodd"
-          d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0v2z" />
-        <path fill-rule="evenodd"
-          d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z" />
-      </svg>
-    </a>
+      <div style="color:white">
+          <p style="display: flex; padding-top: 15px;"> Hola <?php echo $_SESSION["username"]; ?>!  &nbsp; &nbsp; <a href="logout.php">Logout</a></p>
+      </div>
   </div>
 
 
@@ -125,8 +128,8 @@
               
               <tr>
                 <th scope="row" class="text-start">Luz 1</th>
-                <td><input type="button" method="get" id="enciende2" name="on" class="btn btn-success"></td>
-                <td><input type="button" method="get" id="apaga2" name="off" class="btn btn-danger"></td>
+                <td><input type="button" method="GET" id="enciende2" name="on" class="btn btn-success"></td>
+                <td><input type="button" method="GET" id="apaga2" name="off" class="btn btn-danger"></td>
                 <td>
                     <?php
                        if(isset($_GET["error"]) && $_GET["error"]==0){

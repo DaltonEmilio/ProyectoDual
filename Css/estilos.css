@@ -9,28 +9,6 @@ body .contenedor{
      
 }
 
-.tituloWhole{
-    color: #2e2e2e;
-    font-family: Arial,Helvetica,sans-serif;
-    margin-top: 0%;
-    border-bottom: solid 50px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
-    font-size: 2rem;
-    
-}
-
-.titulo{
-    text-align: center;
-    font-family: Arial,Helvetica,sans-serif;
-    color: #2e2e2e;
-    font-size: 5rem;
-    margin-top: 0px;
-    margin-bottom: 30px;
-    
-}
-
 .ImgPrincipalDomotica{
     margin-left: 55px;
     margin-bottom: 55px;
@@ -141,5 +119,87 @@ body .contenedor{
 }
 .home:hover{
     background-color: #0174DF;
+    
+}
+
+
+/*Empieza css COOKIES*/
+
+
+.aviso-cookies {
+    
+	display: none;
+	background: #fff;
+	padding: 20px;
+	width: calc(100% - 40px);
+	max-width: 300px;
+	line-height: 150%;
+	border-radius: 10px;
+	position: fixed;
+	bottom: 20px;
+	left: 20px;
+	z-index: 100;
+	padding-top: 60px;
+	box-shadow: 0px 2px 20px 10px rgba(222,222,222,.25);
+	text-align: center;
+}
+
+.aviso-cookies.activo {
+	display: block;
+}
+
+.aviso-cookies .titulo,
+.aviso-cookies .parrafo {
+	margin-bottom: 15px;
+}
+
+.aviso-cookies .boton {
+	width: 100%;
+	background: #595959;
+	border: none;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	padding: 15px 20px;
+	font-weight: 700;
+	cursor: pointer;
+	transition: .3s ease all;
+	border-radius: 5px;
+	margin-bottom: 15px;
+	font-size: 14px;
+}
+
+.aviso-cookies .boton:hover {
+	background: #000;
+}
+
+.aviso-cookies .enlace {
+	color: #4DBFFF;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.aviso-cookies .enlace:hover {
+	text-decoration: underline;
+}
+
+.fondo-aviso-cookies {
+	display: none;
+	background: rgba(0,0,0,.20);
+	position: fixed;
+	z-index: 99;
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	left: 0;
+}
+
+.fondo-aviso-cookies.activo {
+	display: block;
+}
+
+/*Estilo de error Usuario y contraseña*/
+.oculto{
+    display: none;
     
 }

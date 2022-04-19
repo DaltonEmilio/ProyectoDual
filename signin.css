@@ -2,14 +2,29 @@ body{
     margin: 0%;
 }
 
+
+
 .titulo{
+    color: #2e2e2e;
+    font-family: Arial,Helvetica,sans-serif;
+    margin-top: 0%;
+    /*border-bottom: solid 50px;*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 4rem;
+    
+    
+}
+
+.tituloDomotica{
     color: #2e2e2e;
     font-family: Arial,Helvetica,sans-serif;
     margin-top: 0%;
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
-    font-size: 2rem;
+    font-size: 5rem;
     
 }
 .fondoMenu{
@@ -24,6 +39,7 @@ body{
     text-align: center;
     height: 60px;
     padding-top:  15px;
+    
     
 }
 
@@ -105,9 +121,8 @@ footer {
   color: white;
   text-align: center;
   height: 30px;
-  padding-top: 4px;
-  
-  
+  /*padding-top: 4px;*/
+  text-align: center;
 }
 
 

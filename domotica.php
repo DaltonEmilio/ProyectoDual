@@ -2,16 +2,28 @@
 <html lang="es-ES">
 <head>
   <meta charset="utf-8">
-  <meta name="author" content="Dalton Vinicio Mustafa">
+  <meta name="author" content="Dalton-Emilio, Vinicio, Mustafa">
   <title>WHOLE AUTOMATION</title>
-  <link href="Css/estilos.css" rel="stylesheet">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link href="css/estilos.css" rel="stylesheet">
+  <link href="signin.css" rel="stylesheet">
   
 </head>
 
-<body id="domotica">
-    <h1 class="tituloWhole">whole<span style="color: #0174DF; ">Auto</span>mation.es</h1>
+<body id="domotica" style="font-family: Arial,Helvetica,sans-serif;">
+    <h1 class="titulo">whole<span style="color: #0174DF; ">Auto</span>mation</h1>
+    <div class="fondoMenu">
+        <nav class="menu">
+            <a href="index.html" >Inicio</a>
+            <a href="quienesSomos.php">Quienes somos</a>
+            <a href="domotica.php" style="color: #0174DF;">Domótica</a>
+            <a href="contacto.php">Contacto</a>
+            
+        </nav>
+        </div>
     <div class="contenedor">
-        <h1 class="titulo">Domótica</h1>
+        <h1 class="tituloDomotica">Domótica</h1>
         
         <div class="ImgPrincipalDomotica">
             <img src="img/ImgPrincipalDomotica.jpg" style="width: 660px; height:350px " >

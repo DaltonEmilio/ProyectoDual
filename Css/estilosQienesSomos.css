@@ -5,20 +5,25 @@ body{
     color: #2e2e2e;
     font-family: Arial,Helvetica,sans-serif;
     margin-top: 0%;
-    border-bottom: solid 50px;
+    /*border-bottom: solid 50px;*/
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
     font-size: 2rem;
     
 }
+
+
+
+
 .contenerdor{
     width: 60%;
     margin: 0 auto;
     
 }
 .contenerdor .grupo{
-    margin: 0 auto;
+   /* margin: 0 auto;*/
+    margin-top: 20px;
     
 }
 .grupo{
